@@ -10,28 +10,22 @@ public class PlayerMovement : NetworkBehaviour {
     public LayerMask mask;
 
     [SerializeField]private float Speed=2f;
-    private float cameraDistance=4f;
-    private float cameraheight = 3f;
     private Rigidbody rb;
-    private Transform maincamera;
     private Vector3 offset;
 
     private void Start()
     {
+        Debug.Log("This islocal player");
         rb = GetComponent<Rigidbody>();
-        maincamera = Camera.main.transform;
-        offset = new Vector3(0f,cameraheight,-cameraDistance);
-        setCamera();
     }
 
     private void FixedUpdate()
     {
-        if (!isLocalPlayer)
+        if (!hasAuthority)
         {
             return;
         }
         move();
-        moveCamera();
         Rotate();
     }
 
@@ -59,20 +53,6 @@ public class PlayerMovement : NetworkBehaviour {
             Quaternion newRotation =  Quaternion.LookRotation(Rotation);
             rb.MoveRotation(newRotation);
         }
-    }
-    //setInitial Camera
-    private void setCamera()
-    {
-        maincamera.position = transform.position;
-        maincamera.rotation = transform.rotation;
-        maincamera.Translate(offset);
-        maincamera.LookAt(transform.position);
-    }
-    //move Camera
-    private void moveCamera()
-    {
-        offset = maincamera.transform.position - transform.position;
-        maincamera.transform.position = transform.position + offset;
     }
 
     private void OnCollisionEnter(Collision collision)
