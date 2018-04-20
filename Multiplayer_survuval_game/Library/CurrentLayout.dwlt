@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 93
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -131,10 +131,10 @@ MonoBehaviour:
     y: 0
     width: 855
     height: 635
-  m_MinSize: {x: 202, y: 442}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 202, y: 421}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 124
+  controlID: 127
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,8 +179,8 @@ MonoBehaviour:
     y: 326
     width: 855
     height: 309
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 54
+  controlID: 64
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,7 +328,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
@@ -340,18 +340,18 @@ MonoBehaviour:
       y: 17
       width: 853
       height: 271
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 426.5, y: 135.5}
+    m_Scale: {x: 1.0609, y: 1.0609}
+    m_Translation: {x: 426.49997, y: 135.65225}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -426.5
-      y: -135.5
-      width: 853
-      height: 271
+      x: -402.01715
+      y: -127.865265
+      width: 804.0343
+      height: 255.4435
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
@@ -391,9 +391,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 1.1733022, y: -0.22491503, z: -0.17206383}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 1.1733022, y: -0.22491503, z: -0.17206383}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -421,13 +421,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.16448742, y: -0.7048815, z: 0.17361473, w: 0.6678096}
+    m_Target: {x: 0.08009707, y: -0.91989654, z: 0.26800737, w: 0.2749072}
     speed: 2
-    m_Value: {x: -0.16448742, y: 0.7048815, z: -0.17361474, w: -0.6678096}
+    m_Value: {x: 0.08009599, y: -0.91988415, z: 0.26800376, w: 0.2749035}
   m_Size:
-    m_Target: 35.65489
+    m_Target: 12.240383
     speed: 2
-    m_Value: 35.65489
+    m_Value: 12.240383
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -491,23 +491,23 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    m_SelectedIDs: 8a2c0000
     m_LastClickedID: 0
-    m_ExpandedIDs: e8f9ffff00000000
+    m_ExpandedIDs: ea5efdff705ffdffba61fdff1e81fdffa681fdfff083fdff7eaffdfffcaffdff34b2fdff7ebbfdfffebbfdff3abefdff44c5fdffbcc9fdff40cafdff7cccfdff12cdfdff62e2fdffe6e2fdff2ae5fdffc002feffe808feff6a09feffae0bfeffc424feff4a25feff8c27feff6e51fefff051feff2854feff4684feffca84feff0287feffa292feff2493feff6895feff60dafeffe4dafeff28ddfeff3a7cffffe8f9ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerBluePrint(Clone)
+      m_OriginalName: PlayerBluePrint(Clone)
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -130502
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -560,13 +560,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Prefabs
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Dhumil Dholiya\Desktop\Games\Multiplayer_survuval_game
+  m_LastProjectPath: C:\Users\Dhumil Dholiya\Desktop\Developer Stuff\GitHub Stuff(Unity
+    Projects)\LastOneStanding(Fork)\LastOneStanding\Multiplayer_survuval_game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aa2c0000
-    m_LastClickedID: 11434
+    m_SelectedIDs: ac2c0000
+    m_LastClickedID: 11436
     m_ExpandedIDs: 00000000fa2a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -622,22 +623,22 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerBluePrint
+      m_OriginalName: PlayerBluePrint
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11034
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
